@@ -22,4 +22,9 @@ public class Prueva : MonoBehaviour
     {
         if (array.Length > 5) test = true;
     }
+	
+	string Mensaje(string nombre)
+	{
+		return "Hola " + nombre;
+	}
 }
