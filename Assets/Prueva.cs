@@ -20,7 +20,7 @@ public class Prueva : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (array.Length > 5) test = true;
+        if (array.Length > 100) test = true;
     }
 	
 	string Mensaje(string nombre)
